@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.input {
+  @apply w-full p-3 mb-3 rounded-lg bg-slate-100 text-slate-950 outline-none border border-slate-700;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 px-5 py-3 rounded-lg font-semibold transition;
+}
+
+.btn-danger {
+  @apply bg-red-600 hover:bg-red-700 px-5 py-3 rounded-lg font-semibold transition;
+}
+
+.btn-success {
+  @apply bg-emerald-600 hover:bg-emerald-700 px-5 py-3 rounded-lg font-semibold transition;
+}
+
+.btn-warning {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-black px-5 py-3 rounded-lg font-semibold transition;
+}
+
+.small-btn {
+  @apply bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-xs font-semibold;
+}
+
+.small-btn-red {
+  @apply bg-red-600 hover:bg-red-700 px-3 py-1 rounded text-xs font-semibold;
+}
